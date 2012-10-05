@@ -28,3 +28,11 @@ Unfortunately for you, your teacher is also a frequent visitor of GitHub and he 
 
 > `4c29248 HEAD@{0}: commit: Borrowed IsPrime() from a friend (don't tell the teacher)`
 > `974dbe5 HEAD@{1}: commit (initial): First version`
+
+You want to go back to the commit `974dbe5`.
+
+    $ git reset --hard HEAD@{1}
+
+> `HEAD is now at 974dbe5 First version`
+
+> The `--hard` part is to essentially tell `git` to permanently destroy all the changes made after commit `974dbe5`. It is also possible to do a `--soft` reset.
