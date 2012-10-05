@@ -29,4 +29,4 @@ You have read somewhere that the recommended way to work with `git` is ___commit
 
 Well, to be honest, commit messages like `First version` is okay only for... err, the first version only. Typically you'd want something descriptive (yet fits in a single line) like `Implemented IsPrime(), a primality testing function'. It is important because it tells you what changes a particular commit contains. It also shows up on GitHub,
 
-![GitHub Commit Message](/images/commit-message.png "GitHub Commit Message")
+![GitHub Commit Message](images/commit-message.png "GitHub Commit Message")
