@@ -14,13 +14,15 @@ Let us say, you are asked to write a prime number checker in C++ by your teacher
 
 Create a file named `prime.cpp` inside your prime directory and paste the following,
 
-    #include <iostream>
+```c++
+#include <iostream>
 
-    int main()
-    {
-        std::cout << "Hello world!" << std::endl;
-        return 0;
-    }
+int main()
+{
+    std::cout << "Hello world!" << std::endl;
+    return 0;
+}
+```
 
 You have read somewhere that the recommended way to work with `git` is ___commit early, commit often___. So you are thinking, "this might be a good time to take a snapshot of my file and put it in the repository." Let's do that.
 

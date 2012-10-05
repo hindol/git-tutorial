@@ -1,17 +1,19 @@
 [<- Back to TOC](https://github.com/Hindol/git-tutorial/blob/master/README.md)
 
 # Revert Changes
-Hopefully you have not forgotten about your assignment from the last chapter. But who wants to do an assignment? (Not me at least.) Luckily, you have a friend who has already done it. Let's copy his assignment,
+Hopefully you have not forgotten about your assignment from the last chapter. But who wants to do an assignment? (Not me at least.) Luckily, you have a friend who has already done it. Let's copy his assignment.
 
-    bool CopiedIsPrime(int n)
+```c++
+bool CopiedIsPrime(int n)
+{
+    for (int i = 2; i < n; ++i)
     {
-        for (int i = 2; i < n; ++i)
-        {
-            if (n % i == 0)
-                return false;
-        }
-        return true;
+        if (n % i == 0)
+            return false;
     }
+    return true;
+}
+```
 
 Paste this function just before `int main()`. Commit your changes,
 
@@ -35,4 +37,4 @@ You want to go back to the commit `974dbe5`.
 
 > `HEAD is now at 974dbe5 First version`
 
-> The `--hard` part is to essentially tell `git` to permanently destroy all the changes made after commit `974dbe5`. It is also possible to do a `--soft` reset.
+> The `--hard` part is to essentially tell `git` to ___permanently destroy___ all the changes made after commit `974dbe5`. It is also possible to do a `--soft` reset.
