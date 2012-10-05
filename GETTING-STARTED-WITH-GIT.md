@@ -10,7 +10,7 @@ Let us create an _empty_ `git` repository. It is analogous to buying a bookshelf
 > `Initialized empty Git repository in git-tutorial/examples/prime/.git/`
 
 ## Create Content
-Let us say, you are asked to write a prime number generator in C++ by your teacher. So we are going to create a bare-bones C++ file called `prime.cpp`.
+Let us say, you are asked to write a prime number checker in C++ by your teacher. So we are going to create a bare-bones C++ file called `prime.cpp`.
 
 Create a file named `prime.cpp` inside your prime directory and paste the following,
 
@@ -22,7 +22,7 @@ Create a file named `prime.cpp` inside your prime directory and paste the follow
         return 0;
     }
 
-You have read somewhere that the recommended way to work with `git` is ___commit early, commit often___. So you are thinking, "this might be a good time to take a snapshot of my file and put it in the repository". Let's do that.
+You have read somewhere that the recommended way to work with `git` is ___commit early, commit often___. So you are thinking, "this might be a good time to take a snapshot of my file and put it in the repository." Let's do that.
 
     $ git add prime.cpp
     $ git commit -m 'First version'
