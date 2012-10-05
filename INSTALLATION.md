@@ -1,3 +1,5 @@
+[<- Back to TOC](https://github.com/Hindol/git-tutorial/blob/master/README.md)
+
 # Installation
 Installing `git` is as simple as running,
 

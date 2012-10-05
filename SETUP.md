@@ -1,3 +1,5 @@
+[<- Back to TOC](https://github.com/Hindol/git-tutorial/blob/master/README.md)
+
 # Setup
 Every time you save something to a `git` repository, it prepares a list of changes from the previous version and _signs it off with your signature_. In this case your signature is just your name and your (unique) email id. So let us tell `Git` that information.
 
