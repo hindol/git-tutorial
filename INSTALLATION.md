@@ -7,7 +7,7 @@ I frequently use `gitg` in this tutorial. To install `gitg`,
 
     $ sudo apt-get install gitg
 
-## Getting `apt-get` to work behind proxy
+## Getting `apt-get` to Work Behind Proxy
 Set up `$http_proxy` and `$https_proxy` environment variables either in `~/.bashrc` or `~/.profile` by adding the following lines,
 
     $ cat - >> ~/.profile
