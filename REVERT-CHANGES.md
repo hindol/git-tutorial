@@ -1,3 +1,5 @@
+[<- Back to TOC](https://github.com/Hindol/git-tutorial/blob/master/README.md)
+
 # Revert Changes
 Hopefully you have not forgotten about your assignment from the last chapter. But who wants to do an assignment? (Not me at least.) Luckily, you have a friend who has already done it. Let's copy his assignment,
 
@@ -24,5 +26,5 @@ Unfortunately for you, your teacher is also a frequent visitor of GitHub and he 
 
     $ git reflog
 
-> `4c29248 HEAD@{0}: commit: Borrowed IsPrime() from a friend (don't tell the teach
-974dbe5 HEAD@{1}: commit (initial): First version`
+> `4c29248 HEAD@{0}: commit: Borrowed IsPrime() from a friend (don't tell the teacher)`
+> `974dbe5 HEAD@{1}: commit (initial): First version`
