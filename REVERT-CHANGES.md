@@ -52,12 +52,11 @@ Commit your changes,
 That's it. An assignment well done!
 
 Well, not quite...
-Unfortunately for you, your teacher is also a frequent visitor of GitHub and he sees your commit message. Now he is really angry. He screams, "Either you do it yourself or I will fail you." So you type,
+Unfortunately for you, your teacher is also a frequent visitor of GitHub and he sees your commit message. Now he is really angry. He screams, "Either you do it yourself or I will fail you." You must _undo_ the changes you have made. So you type,
 
     $ git reflog
 
-> `4c29248 HEAD@{0}: commit: Borrowed IsPrime() from a friend (don't tell the teacher)`
->
+> `4c29248 HEAD@{0}: commit: Borrowed IsPrime() from a friend (don't tell the teacher)`  
 > `974dbe5 HEAD@{1}: commit (initial): First version`
 
 You want to go back to the commit `974dbe5`.

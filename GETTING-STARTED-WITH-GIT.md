@@ -1,7 +1,7 @@
 [<- Back to TOC](https://github.com/Hindol/git-tutorial/blob/master/README.md)
 
 # Getting Started with Git
-Let us create an _empty_ `git` repository. It is analogous to buying a bookshelf but you don't have any books in it, yet.
+Let us create an _empty_ `git` repository.
 
     $ mkdir prime
     $ cd prime
@@ -24,7 +24,7 @@ int main()
 }
 ```
 
-Let us check the _status_ of the `git` repository.
+Git is a bit dumb by itself, so it won't add items to the repository _unless you told it to_. Now, _that_ is a good thing. Let us check the _status_ of the `git` repository.
 
     $ git status
 
@@ -46,6 +46,6 @@ You have read somewhere that the recommended way to work with `git` is ___commit
 > ` 1 file changed, 7 insertions(+)`  
 > ` create mode 100644 prime.cpp`
 
-Well, to be honest, commit messages like `First version` is okay only for... err, the first version only. Typically you'd want something descriptive (yet fits in a single line) like `Implemented IsPrime(), a primality testing function'. It is important because it tells you what changes a particular commit contains. It also shows up on GitHub,
+Well, to be honest, commit messages like `First version` is okay only for... err, the first version. Typically you'd want something descriptive (yet fits in a single line) like `'Implemented a simple hello world program'`. It is important because it tells you what changes a particular commit contains. It also shows up nicely on GitHub,
 
 ![GitHub Commit Message](https://raw.github.com/Hindol/git-tutorial/master/images/commit-message.png "GitHub Commit Message")

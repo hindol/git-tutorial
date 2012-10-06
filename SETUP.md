@@ -12,7 +12,7 @@ Also tell `Git` about our proxy servers _just in case_, although it should detec
     $ git config --global https.proxy "http://proxyUser:proxyPassword@proxy:proxyPort/"
 
 ## Setting Up Visual Merge / Diff Tools
-Meld is a very nice (and free) visual diff / merge tool. A diff tool is a utility that opens two files side-by-side and shows the differences among them. To setup Meld,
+Meld is a very nice (and free) visual diff / merge tool. A diff tool is a utility that opens two files side-by-side and shows the differences between them. To setup Meld,
 
     $ sudo apt-get install meld
 

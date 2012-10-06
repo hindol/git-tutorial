@@ -1,6 +1,7 @@
 [<- Back to TOC](https://github.com/Hindol/git-tutorial/blob/master/README.md)
 
 # Installation
+## On Ubuntu
 Installing `git` is as simple as running,
 
     $ sudo apt-get install git-core git-doc git-gui
