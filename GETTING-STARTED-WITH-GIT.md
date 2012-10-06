@@ -42,6 +42,10 @@ You have read somewhere that the recommended way to work with `git` is ___commit
     $ git add prime.cpp
     $ git commit -m 'First version'
 
+> `[master (root-commit) 974dbe5] First version`  
+> ` 1 file changed, 7 insertions(+)`  
+> ` create mode 100644 prime.cpp`
+
 Well, to be honest, commit messages like `First version` is okay only for... err, the first version only. Typically you'd want something descriptive (yet fits in a single line) like `Implemented IsPrime(), a primality testing function'. It is important because it tells you what changes a particular commit contains. It also shows up on GitHub,
 
 ![GitHub Commit Message](https://raw.github.com/Hindol/git-tutorial/master/images/commit-message.png "GitHub Commit Message")

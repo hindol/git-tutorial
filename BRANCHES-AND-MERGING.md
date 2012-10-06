@@ -29,6 +29,42 @@ The _starred_ branch is the branch you are on. Let's create a new branch,
 > `  better-primality-test`  
 > `* master`
 
-We are now going to _jump_ to the newly created branch (Don't forget the whooping and screeching, (; ).
+We are now going to _jump_ to the newly created branch (don't forget the whooping and screeching, (; ).
 
     $ git checkout better-primality-test
+
+> `Switched to branch 'better-primality-test'`
+
+Modify `prime.cpp` to look like this,
+
+```c++
+#include <cmath>
+#include <iostream>
+
+bool IsPrime(int n)
+{
+    int sqrtN = static_cast<int>(
+                    std::ceil( std::sqrt(n) )
+                );
+    for (int i = 2; i <= sqrtN; ++i)
+    {
+        if (n % i == 0)
+            return false;
+    }
+    return true;
+}
+
+int main()
+{
+    std::cout << "Hello world!" << std::endl;
+    return 0;
+}
+```
+
+Commit our changes as usual,
+
+    $ git commit prime.cpp -m 'Implemented a better primality test'
+
+> `[master (root-commit) c2eccdc] Testing ()`  
+> ` 0 files changed`  
+> ` create mode 100644 delete`

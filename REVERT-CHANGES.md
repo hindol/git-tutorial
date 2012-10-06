@@ -42,9 +42,12 @@ Paste this function just before `int main()`. At this point, since `prime.cpp` i
 
 Commit your changes,
 
-    $ git commit prime.cpp -m 'Borrowed IsPrime() from a friend (don't tell the teacher)'
+    $ git commit prime.cpp -m "Borrowed IsPrime() from a friend (don't tell the teacher)"
 
-> Note that `git add` is not required here since we are explicitly mentioning the name of the file we want to commit.
+> `[master 4c29248] Borrowed IsPrime() from a friend (don't tell the teacher)`  
+> ` 1 file changed, 12 insertions(+), 2 deletions(-)`
+
+> Note that `git add` is not required here since we are explicitly mentioning the name of the file we want to commit. Also note that we have used `""`  for the commit message instead of `''` since `()` inside `''` does not work.
 
 That's it. An assignment well done!
 
