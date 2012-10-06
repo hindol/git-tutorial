@@ -14,7 +14,7 @@ Example conflict,
 
     $ git merge rose\'s-version
 
-> 'Auto-merging TEXT`  
+> `Auto-merging TEXT`  
 > `CONFLICT (content): Merge conflict in TEXT`  
 > `Automatic merge failed; fix conflicts and then commit the result.`
 
