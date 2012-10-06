@@ -1,3 +1,5 @@
+[<- Back to TOC](https://github.com/Hindol/git-tutorial/blob/master/README.md)
+
 # Branches and Merging
 Lessons learned! No copying this time. You have your very own `IsPrime()` function in place.
 
