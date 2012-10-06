@@ -65,6 +65,5 @@ Commit our changes as usual,
 
     $ git commit prime.cpp -m 'Implemented a better primality test'
 
-> `[master (root-commit) c2eccdc] Testing ()`  
-> ` 0 files changed`  
-> ` create mode 100644 delete`
+> `[better-primality-test 272871e] Implemented a better primality test`  
+> ` 1 file changed, 5 insertions(+), 1 deletion(-)`
