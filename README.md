@@ -1,5 +1,5 @@
 # Table of Contents
-### 1. Git [See this WikiPedia Link](http://en.wikipedia.org/wiki/Git_(software))
+### 1. Git [Official Site](http://git-scm.com/)
 ### 2. [Installation](https://github.com/Hindol/git-tutorial/blob/master/INSTALLATION.md)
 ### 3. [Setup](https://github.com/Hindol/git-tutorial/blob/master/SETUP.md)
 ### 4. [Getting Started with Git](https://github.com/Hindol/git-tutorial/blob/master/GETTING-STARTED-WITH-GIT.md)
