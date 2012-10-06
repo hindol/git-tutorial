@@ -31,6 +31,8 @@ The _starred_ branch is the branch you are on. Let's create a new branch,
 
 We are now going to _jump_ to the newly created branch (don't forget the whooping and screeching, (; ).
 
+> You can anytime go back to the `master` branch by typing `$ git checkout master` and continue where you left off. ___Commiting to one branch does not change the contents of another branch___.
+
     $ git checkout better-primality-test
 
 > `Switched to branch 'better-primality-test'`
@@ -67,3 +69,23 @@ Commit our changes as usual,
 
 > `[better-primality-test 272871e] Implemented a better primality test`  
 > ` 1 file changed, 5 insertions(+), 1 deletion(-)`
+
+Now, since you are _happy_ with the changes you have made, let's ___merge better-primality-test___ into master.
+
+    $ git checkout master
+    $ git merge better-primality-test
+
+> `Updating 9faebab..272871e`  
+> `Fast-forward`  
+> ` prime.cpp |    6 +++++-`  
+> ` 1 file changed, 5 insertions(+), 1 deletion(-)`
+
+Since the branch `better-primality-test` has served its purpose,
+
+    $ git branch -d better-primality-test
+
+> `Deleted branch better-primality-test (was 272871e).`
+
+> During merging, you may occassionaly end up with a _merge conflict_. Fear not, merge conflicts are discussed in the next chapter.
+
+That's it! You are now a master of branching and merging.
