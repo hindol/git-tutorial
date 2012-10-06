@@ -24,6 +24,19 @@ int main()
 }
 ```
 
+Let us check the _status_ of the `git` repository.
+
+    $ git status
+
+> `# On branch master`
+> `#`
+> `# Untracked files:`
+> `#   (use "git add <file>..." to include in what will be committed)`
+> `#`
+> `#	prime.cpp`
+
+You have not yet added `prime.cpp` to the repository. So currently `git` is not _tracking_ your file.
+
 You have read somewhere that the recommended way to work with `git` is ___commit early, commit often___. So you are thinking, "this might be a good time to take a snapshot of my file and put it in the repository." Let's do that.
 
     $ git add prime.cpp
