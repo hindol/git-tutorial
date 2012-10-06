@@ -19,25 +19,43 @@ Paste this function just before `int main()`. At this point, since `prime.cpp` i
 
     $ git diff
 
-> `diff --git a/prime.cpp b/prime.cpp` 
-> `index 0ad3673..bdf2873 100644` 
-> `--- a/prime.cpp` 
-> `+++ b/prime.cpp` 
-> `@@ -1,5 +1,15 @@` 
-> ` #include <iostream>` 
-> 
-> `+bool CopiedIsPrime(int n)` 
-> `+{` 
-> `+    for (int i = 2; i < n; ++i)` 
-> `+    {` 
-> `+        if (n % i == 0)` 
-> `+            return false;` 
-> `+    }` 
-> `+    return true;` 
-> `+}` 
-> `+` 
-> ` int main()` 
-> ` {` 
+> `diff --git a/prime.cpp b/prime.cpp`
+>
+> `index 0ad3673..bdf2873 100644`
+>
+> `--- a/prime.cpp`
+>
+> `+++ b/prime.cpp`
+>
+> `@@ -1,5 +1,15 @@`
+>
+> ` #include <iostream>`
+>
+>
+> `+bool CopiedIsPrime(int n)`
+>
+> `+{`
+>
+> `+    for (int i = 2; i < n; ++i)`
+>
+> `+    {`
+>
+> `+        if (n % i == 0)`
+>
+> `+            return false;`
+>
+> `+    }`
+>
+> `+    return true;`
+>
+> `+}`
+>
+> `+`
+>
+> ` int main()`
+>
+> ` {`
+>
 > `        std::cout << "Hello world!" << std::endl;`
 
 Commit your changes,
@@ -53,7 +71,8 @@ Unfortunately for you, your teacher is also a frequent visitor of GitHub and he 
 
     $ git reflog
 
-> `4c29248 HEAD@{0}: commit: Borrowed IsPrime() from a friend (don't tell the teacher)` 
+> `4c29248 HEAD@{0}: commit: Borrowed IsPrime() from a friend (don't tell the teacher)`
+>
 > `974dbe5 HEAD@{1}: commit (initial): First version`
 
 You want to go back to the commit `974dbe5`.
