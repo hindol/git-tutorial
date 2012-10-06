@@ -20,3 +20,5 @@ Now let us _integrate_ it with `Git`.
 
     $ git config --global diff.tool meld
     $ git config --global merge.tool meld
+
+[<- Back to TOC](https://github.com/Hindol/git-tutorial/blob/master/README.md)

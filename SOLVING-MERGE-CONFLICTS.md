@@ -41,3 +41,5 @@ And the good cease to tremble at Tyranny's nod;
 ```
 
 Simply commit the changes and you are done.
+
+[<- Back to TOC](https://github.com/Hindol/git-tutorial/blob/master/README.md)

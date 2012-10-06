@@ -89,3 +89,5 @@ Since the branch `better-primality-test` has served its purpose,
 > During merging, you may occassionaly end up with a _merge conflict_. Fear not, merge conflicts are discussed in the next chapter.
 
 That's it! You are now a master of branching and merging.
+
+[<- Back to TOC](https://github.com/Hindol/git-tutorial/blob/master/README.md)

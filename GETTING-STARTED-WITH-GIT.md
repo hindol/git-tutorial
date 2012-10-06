@@ -49,3 +49,5 @@ You have read somewhere that the recommended way to work with `git` is ___commit
 Well, to be honest, commit messages like `First version` is okay only for... err, the first version. Typically you'd want something descriptive (yet fits in a single line) like `'Implemented a simple hello world program'`. It is important because it tells you what changes a particular commit contains. It also shows up nicely on GitHub,
 
 ![GitHub Commit Message](https://raw.github.com/Hindol/git-tutorial/master/images/commit-message.png "GitHub Commit Message")
+
+[<- Back to TOC](https://github.com/Hindol/git-tutorial/blob/master/README.md)

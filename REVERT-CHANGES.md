@@ -66,3 +66,5 @@ You want to go back to the commit `974dbe5`.
 > `HEAD is now at 974dbe5 First version`
 
 > The `--hard` part is to essentially tell `git` to ___permanently destroy___ all the changes made after commit `974dbe5`. It is also possible to do a `--soft` reset.
+
+[<- Back to TOC](https://github.com/Hindol/git-tutorial/blob/master/README.md)

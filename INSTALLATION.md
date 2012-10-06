@@ -31,3 +31,5 @@ Add a line to it so that it matches the following,
     ...
 
 Reboot your system.
+
+[<- Back to TOC](https://github.com/Hindol/git-tutorial/blob/master/README.md)
