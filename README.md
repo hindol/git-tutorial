@@ -8,3 +8,4 @@
 ### 7. [Solving Merge Conflicts](https://github.com/Hindol/git-tutorial/blob/master/SOLVING-MERGE-CONFLICTS.md)
 ### 8. Working with GitHub - [See the Official Guide](https://help.github.com/articles/create-a-repo)
 ### 9. Graphical UIs for Git
+### 10. [Useful Links](https://github.com/Hindol/git-presentation-keynotes#useful-links)
