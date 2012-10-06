@@ -31,7 +31,7 @@ Where Innocence sleeps beneath the peace-giving sod,
 And the good cease to tremble at Tyranny's nod;
 ```
 
-Clearly, `For my ___knife___ is bathed in the blood of the brave,` is Jack's version of the poetry and Rose wrote, `For my ___dagger___ is washed in the blood of the brave,`. Now, as a conflict resolver, you must decide whose version to keep. You love them both, so you decided to keep both versions. So you manually edit the file to look like,
+Clearly, `For my *knife* is bathed in the blood of the brave,` is Jack's version of the poetry and Rose wrote, `For my *dagger* is washed in the blood of the brave,`. Now, as a conflict resolver, you must decide whose version to keep. You love them both, so you decided to keep both versions. So you manually edit the file to look like,
 
 ```
 For my knife / dagger is bathed in the blood of the brave,
