@@ -28,11 +28,11 @@ Let us check the _status_ of the `git` repository.
 
     $ git status
 
-> `# On branch master`
-> `#`
-> `# Untracked files:`
-> `#   (use "git add <file>..." to include in what will be committed)`
-> `#`
+> `# On branch master` 
+> `#` 
+> `# Untracked files:` 
+> `#   (use "git add <file>..." to include in what will be committed)` 
+> `#` 
 > `#	prime.cpp`
 
 You have not yet added `prime.cpp` to the repository. So currently `git` is not _tracking_ your file.
